@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Witam wszystkich - Witek Sobczyk</title>
+  <meta name="description" content="Osobista strona Witka Sobczyka – przemyślenia, postulaty i ważne sprawy.">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      color: #333;
+      background: linear-gradient(to bottom, #a1c4fd, #c2e9fb);
+    }
+
+    header {
+      background: linear-gradient(135deg, #007acc, #00bfff);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 span {
+      color: #FFD700;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 15px;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .posts {
+      max-width: 900px;
+      margin: 30px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .post-card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .post-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+
+    time {
+      display: block;
+      font-size: 0.9em;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.85em;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Witam wszystkich <span>- Witek</span></h1>
+    <p>Z poświęceniem, z myślą o Was...</p>
+    <nav aria-label="Menu główne">
+      <ul>
+        <li><a href="Wazne.html">Ważne</a></li>
+        <li><a href="Postulat.html">Postulat</a></li>
+        <li><a href="O Ukrainie.html">O Ukrainie</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="posts">
+      <article class="post-card">
+        <h2>Moja pierwsza wzmianka</h2>
+        <time datetime="2025-08-04">4 sierpnia 2025</time>
+        <p>Po co stworzyłem tę stronę? Abyśmy patrzyli do przodu w tych niepewnych czasach :)</p>
+      </article>
+
+      <article class="post-card">
+        <h2>Drogi czytelniku</h2>
+        <time datetime="2025-08-05">5 sierpnia 2025</time>
+        <p>Pozdrawiam całe Branice i śmiało mogę powiedzieć, że Daniel to najlepszy ziom.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 To ja Witek - Wszystkie prawa zastrzeżone
+  </footer>
+
+</body>
+</html>
